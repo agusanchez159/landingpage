@@ -1,0 +1,124 @@
+/* Write some CSS below */
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+.banner-wrap {
+	background:
+  linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/fondo6.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: 1;
+	background-color:rgba(0,0,0,0.6);
+	padding: 110px 0;
+	text-align: center;
+	filter: grayscale(40%);
+}
+
+.banner-wrap h1 {
+	color: white;
+	font-size: 34px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.banner-wrap p {
+	color: #b6dec6;
+	font-size: 16px;
+	opacity: 0.85;
+}
+
+button {
+	background-color: #27ae60;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 14px;
+	font-weight: bold;
+	border: none;	
+}
+
+button:hover {
+	background-color: #2ecc71;
+}
+
+.cards-wraps {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 130px;
+	background-color: #363c3d;
+}
+
+.cards-wraps h2 {
+	padding-left:27px; 
+	font-size: 17px;
+	color: white;
+}
+
+.cards-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center ;
+	justify-content: space-between;
+	margin: 2%;
+	width: 96%; 
+}
+
+.card {
+	width: 330px;
+	padding:3%;
+}
+
+.card img {
+	width: 90%;
+    height: 325px;
+	background-color: #ebeded;
+	box-shadow: 0 0 16px rgba(0,0,0,0.8);
+	border-radius:6px;
+	padding: 3% 5%;
+	opacity: 0.8;
+}
+
+.card:hover .image {
+  opacity: 1;
+}
+
+.pais {
+	margin-top: 10px;
+	background-color: #27ae60;
+	border-radius: 5px;
+  	color:white;
+  	margin-left: 60px;
+  	margin-right: 60px;
+  	font-size: 16px;
+ 	padding: 16px 32px;
+ 	text-align: center;
+}
+
+
+.card-body p {
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+
+
+footer {
+	background: #0e1010;
+	color: white;
+	padding: 3px 20px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 13px;
+	text-align: right;
+
+}
+
+
+
